@@ -71,9 +71,9 @@ const SearchBooks = () => {
         variables: { addBook: { ...bookToSave }}
       });
 
-      if (!response.ok) {
+      /* if (!response.ok) {
         throw new Error('something went wrong!');
-      }
+      } */
 
       // if book successfully saves to user's account, save book id to state
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);

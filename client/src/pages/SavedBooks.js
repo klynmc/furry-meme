@@ -84,9 +84,9 @@ const SavedBooks = () => {
         variables: {bookId}
       });
 
-      if (!response.ok) {
+      /* if (!response.ok) {
         throw new Error('something went wrong!');
-      }
+      } */
 
       /* const updatedUser = await response.json();
       setUserData(updatedUser); */
