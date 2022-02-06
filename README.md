@@ -1,7 +1,7 @@
 # Book Search Engine
 
 ## Purpose
-So that readers can keep an updated list of books which they would like to purchase 
+So that readers can keep an updated list of books which they would like to purchase.
 
 ## Built With
 * React
