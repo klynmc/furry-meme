@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-// localhost would not load graphql so I replaced it with 127.0.0.1
+// localhost would not load graphql so I replaced it with 127.0.0.1:27017
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/furry-meme', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/furry-meme', {
   useNewUrlParser: true, 
   useUnifiedTopology: true,
   useCreateIndex: true,
