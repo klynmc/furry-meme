@@ -13,7 +13,7 @@ const SavedBooks = () => {
   /* const [userData, setUserData] = useState({}); */
   const { data, loading } = useQuery(GET_ME);
   const [removeBook, { error }] = useMutation(REMOVE_BOOK);
-  const userData = loading ? null: data ?.me
+  const userData = data && loading
   /* const me
 
   if (userData, loading) {
